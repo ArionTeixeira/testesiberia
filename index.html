@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="siberia.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-div">
+            <h1>Você ganhou um teste gratuito</h1>
+        </div>
+    </header>
+    <div class="titulo">
+        <h2>Responda o formulario e veja qunatos <span class="texto">KG</span> pode perder com <span class="texto">OZEMPICNATURAL</span></h2>
+    </div>
+    <section class="container">
+        <div class="div-janela">
+            <h4>Digite seus dados para fazer o calculo</h4>
+            <div class="div-form">
+                <form class="form">
+                    <input type="text" class="form-element" id="nome"  placeholder="Digite seu Nome" required>
+                    <input type="text" class="form-element" id="idade" placeholder="Digite sua Idade" required>
+                    <input type="text" class="form-element" id="altura" placeholder="Digite sua Altura em cm" required>
+                    <input type="text" class="form-element" id="peso" placeholder="Digite seu Peso em kg" required>
+                    <input type="text" class="form-element" id="desejado" placeholder="Digite seu Peso desejado em kg" required>
+                    <p>Qual seu genero?</p>
+                    <div class="radio">
+                        <input type="radio" id="masculino" name="genero" value="1" checked>
+                        <label for="masculino">Masculino</label>
+                        <input type="radio" id="feminino" name="genero" value="2">
+                        <label for="feminino">Feminino</label>
+                    </div>
+                    <label for="atividade">Qual é o seu nivel de atividade fisica semanal?</label>
+                    <select name="atividade" class="form-element" id="exercicio">
+                        <option value="0">Nenhuma atividade</option>
+                        <option value="1">de 1-2 vezes por semena</option>
+                        <option value="2">de 2-4 vezes por semena</option>
+                        <option value="3">de 4-6 vezes por semena</option>
+                        <option value="4">todos os dias da semana</option>
+                    </select>
+                    <button class="botao">Realizar Calculo Agora</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="resultado">
+        <div class="container-resultado">
+            <div class="div-resultado">
+                <div class="resultado-header">
+
+                </div>
+                <div class="resultado-titulo">
+                    <h2>Assita o video abaixo e saiba como</h2>
+                </div>  
+                <div class="conteudo">
+                    <iframe width="900" height="560" src="https://www.youtube.com/embed/Il3UZXPrZlw?si=1tBUkJSGf8TyEmOz" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</script>
+</html>
